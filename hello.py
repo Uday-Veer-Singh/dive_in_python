@@ -17,3 +17,44 @@ tuple_var, set_var, range_var, none_var)
 
 isinstance(integer_var, float)
 print(isinstance(integer_var, float))
+
+#Strings
+single_str_1 = 'inigma'
+single_str_2 = "inigma"
+multi_str_1 = '''inigma
+              inigma'''
+multi_str_2 = """inigma
+              inigma""" 
+msg_str_1 = "inigma's inigma"
+quote_str_1 = 'inigma, "inigma"'
+
+#Using \
+msg_str_2 = 'inigma\'s inigma'
+quote_str_2 = "inigma, \"inigma\""
+print(single_str_1, single_str_2, multi_str_1, multi_str_2, msg_str_1, 
+quote_str_1, msg_str_2, quote_str_2)
+
+#in operator
+print('m' in msg_str_1)
+print('q' in msg_str_1)
+print('1' in msg_str_1)
+
+#length operator
+print(len(msg_str_1))
+
+#index operator
+print(msg_str_1[3])
+print(msg_str_1[7])
+print(msg_str_1[0])
+
+#negative index
+print(msg_str_1[-1])
+print(msg_str_1[-13])
+
+#string are immutable
+msg_str_1 = 'no inigma'
+print(msg_str_1)
+
+#string cannot be changed directly
+#msg_str_1[3] = 'u'
+#msg_str_1[3] = '7'
