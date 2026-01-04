@@ -66,7 +66,19 @@ str_3 = 'maya'
 str_com = str_1 + ' ' + str_2 + ' ' + str_3
 print(str_com)
 
-#str() function
+# str() function
 str_4  = 6
 print(str_com + ' ' + str(str_4))
 
+# (+=) operator
+# It is used to concatenate string with number
+
+str_5 = str_1
+str_5 += str(str_4)
+print(str_5)
+
+# String interpolation.
+# In this string or number act as a string, there is no need to change it with
+# str().
+str_6 = f'meri {str_1} {str_2} {str_3} and {str_4 + str_4}'
+print(str_6)
