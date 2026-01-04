@@ -58,3 +58,15 @@ print(msg_str_1)
 #string cannot be changed directly
 #msg_str_1[3] = 'u'
 #msg_str_1[3] = '7'
+
+#string concatination
+str_1 = 'maya'
+str_2 = 'hi'
+str_3 = 'maya'
+str_com = str_1 + ' ' + str_2 + ' ' + str_3
+print(str_com)
+
+#str() function
+str_4  = 6
+print(str_com + ' ' + str(str_4))
+
