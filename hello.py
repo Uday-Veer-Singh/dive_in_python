@@ -82,3 +82,23 @@ print(str_5)
 # str().
 str_6 = f'meri {str_1} {str_2} {str_3} and {str_4 + str_4}'
 print(str_6)
+
+# What Is String Slicing and How Does It Work?
+# string[start:stop]
+
+print(str_1[1:])
+print(str_1[2:])
+print(str_1[3:])
+print(str_1[:3])
+print(str_1[:])
+
+# string[start:stop:step]
+
+print(str_1[::2])
+
+# Reverse a string
+
+print(str_1[::-1])
+
+# String methods
+
