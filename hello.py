@@ -58,3 +58,16 @@ print(abs_num)
 # exponentiation.
 pow_num = pow(2, 2)
 print(pow_num)
+
+# augmented assignments
+int_num += 10
+print(int_num)
+
+str_1 = 'oops'
+str_1 += '!... '
+str_1 *= 3
+print(str_1)
+
+# We can't do - or / with strings
+
+# like additon, it can be used on every above intergers and strings
